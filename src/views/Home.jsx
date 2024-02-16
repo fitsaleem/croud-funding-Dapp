@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import { loadProjects } from '../services/blockchain'
 import { useGlobalState } from '../store'
+// import Banner from '../components/Banner'
+import Team from '../components/Team'
 
 const Home = () => {
   const [projects] = useGlobalState('projects')
@@ -14,10 +16,12 @@ const Home = () => {
   }, [])
   return (
     <>
+      {/* <Banner />   */}
       <Hero />
       <Projects projects={projects} />
       <CreateProject />
       <AddButton />
+      <Team />
     </>
   )
 }

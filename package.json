@@ -1,9 +1,9 @@
 {
-  "name": "Demo",
+  "name": "MOITT",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "div": "react-app-rewired start",
+    "dev": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"

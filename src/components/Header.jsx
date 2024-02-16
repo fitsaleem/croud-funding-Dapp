@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header
       className="flex justify-between items-center
-        p-5 bg-white shadow-lg fixed top-0 left-0 right-0"
+        p-5 bg-white shadow-lg fixed top-0 left-0 right-0 z-10"
     >
       <Link
         to="/"
@@ -33,9 +33,9 @@ const Header = () => {
         ) : (
           <button
             type="button"
-            className="inline-block px-6 py-2.5 bg-green-600
-            text-white font-medium text-xs leading-tight uppercase
-            rounded-full shadow-md hover:bg-green-700"
+            className="inline-block px-6 py-2.5 text-white transition hover:bg-blue-700 bg-blue-600
+             font-medium text-xs leading-tight uppercase
+            rounded-full shadow-md "
             onClick={connectWallet}
           >
             Connect Wallet
