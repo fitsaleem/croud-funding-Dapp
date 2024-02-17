@@ -61,3 +61,17 @@ To run the demo follow these steps:
 - 🎅 [Faucet](https://faucets.chain.link/rinkeby)
 - 🤖 [CometChat](https://cometchat.com/)
 <!-- - ✨ [Live Demo](https://genesis-45443.web.app/) -->
+
+
+2:50 smart contract
+
+deploy smart contract:
+
+npx hardhat node
+
+
+ENDPOINT_URL=https://sepolia.infura.io/v3/77053b9f976841378d64f6ada63305df
+SECRET_KEY=4eb9904e7409451fba556905652dec07
+DEPLOYER_KEY=77053b9f976841378d64f6ada63305df
+
+

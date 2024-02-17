@@ -8,6 +8,8 @@ const contractAddress = address.address
 const contractAbi = abi.abi
 let tx
 
+
+
 const connectWallet = async () => {
   try {
     if (!ethereum) return alert('Please install Metamask')
@@ -40,7 +42,11 @@ const isWallectConnected = async () => {
       console.log('No accounts found.')
     }
   } catch (error) {
-    reportError(error)
+    // reportError(error)
+    const reportError = (error) => {
+      console.log(error.message);
+      throw error; // Re-throw the original error
+    };
   }
 }
 
