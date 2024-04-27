@@ -1,7 +1,7 @@
 # How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity
 
 
-<!-- This example shows How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity, and CometChat: -->
+<!-- This example shows How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity, and : -->
 
 <!-- ![Genesis Project](./screenshots/0.gif)
 <center><figcaption>Genesis Project</figcaption></center>
